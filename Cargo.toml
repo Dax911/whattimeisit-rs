@@ -1,0 +1,17 @@
+[package]
+name = "whattimeisit"
+version = "0.1.0"
+edition = "2021"
+authors = ["Dax the Developer <dax@skill-issue.dev>"]
+description = "A simple CLI tool to print the current date and time in various formats."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/yourusername/whattimeisit"
+homepage = "https://github.com/yourusername/whattimeisit"
+documentation = "https://docs.rs/whattimeisit"
+keywords = ["datetime", "cli", "time", "date"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+chrono = "0.4.38"
+clap = "4.5.9"
